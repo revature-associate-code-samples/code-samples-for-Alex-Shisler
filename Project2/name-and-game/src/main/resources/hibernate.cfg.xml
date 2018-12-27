@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.url">jdbc:oracle:thin:@revature.cqtfgup04dcw.us-east-2.rds.amazonaws.com:1521:ORCL</property>
+		<property name="hibernate.connection.username">atshisler</property>
+		<property name="hibernate.connection.password">Baconeatingsans2!</property>
+		
+		<property name="dialect">org.hibernate.dialect.Oracle12cDialect</property>
+		<property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+		
+		<property name="hibernate.hbm2ddl.auto">update</property>
+		<property name="hibernate.show_sql">true</property>
+
+		<!-- include our mappings as resources(hbm.xml files) or classes(where we have annotations) -->
+		<mapping class="com.revature.model.GameUser" />
+		<mapping class="com.revature.model.Game" />
+		<mapping class="com.revature.model.Genre" />
+		<mapping class="com.revature.model.Platform" />
+	</session-factory>
+</hibernate-configuration>
