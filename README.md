@@ -11,4 +11,4 @@ This project is a web application for searching video games, the user is able to
 Technologies used include HTML/CSS, Typescript, Angular, Java, Hibernate, Spring MVC, and the IGDB API.
 
 ## Project 3
-Final project continued on with the third iteration of RideForce, this application was used to allow Revature associates to connect with each other in order to find a daily commute to work. The web application uses a Microservice Architecture that incorporates Netflix Zuul, Netflix Eureka, Angular, Java, and Spring.
+Final project continued on with the third iteration of RideForce, this application was developed to allow Revature associates to connect with each other in order to find a daily commute to work. The web application uses a Microservice Architecture that incorporates Netflix Zuul, Netflix Eureka, Angular, Java, and Spring.
