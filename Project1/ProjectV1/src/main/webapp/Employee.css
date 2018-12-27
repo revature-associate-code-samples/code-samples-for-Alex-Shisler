@@ -1,0 +1,36 @@
+
+button{
+	font-family: inherit;
+}
+
+form{
+    font-family: monospace;
+    style: italic;
+}
+
+body{
+	font-family: Arial;
+}
+nav{
+    font-family: fantasy;
+    font-size: large;
+}
+
+.btn-outline-primary{
+  background-color: transparent;
+  border-color: transparent;
+  font-size: large;
+}
+.btn-dark{
+	color: white;
+	font-family: arial;
+	font-size: large;
+	style: bold;
+}
+.btn-light{
+	font-family: arial;
+	font-size: large;
+	style: bold;
+}
+
+
