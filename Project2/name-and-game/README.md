@@ -8,5 +8,6 @@ This project is a web application for searching video games, the user is able to
 - Integration of external API IGDB to retrieve games for use with our site
 - Sending responses for GameController (sending HTTP Responses from Back End to Front End)
 - Implented JUnit tests for testing functionality of User Hibernate functions
-
+- Create and manage pipeline for EC2 with Jenkins
 ## **Technologies / Environments** 
+Java, Hibernate, Spring MVC, AWS RDS, EC2, Maven, Jenkins, Angular, HTML/CSS, Bootstrap, S3 Bucket
