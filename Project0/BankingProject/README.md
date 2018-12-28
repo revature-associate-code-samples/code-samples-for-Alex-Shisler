@@ -7,5 +7,5 @@
 - Utilized OracleSQL and Amazon RDS to store the state of user accounts and login info.
 
 ## **Environment / Technologies**
-Java, JDBC, SQL, Amazon RDS
+Java, JDBC, SQL, Oracle 11g, SQL Developer
   
