@@ -4,8 +4,8 @@ This project is an employee reimbursement system that allows a user to access a 
 Full Repository https://github.com/atshisler/batch-source/tree/Alex_Shisler/Alex_Shisler_Code/ProjectV1
 
 ## **Roles / Responsibilities** 
-- New users can create an account.
-- Users being able to login
+- Individual Project
+- Implemented a user login/account system.
 - Employees can view and filter their pending and resolved reimbursement requests.
 - Employees can view and update their own information.
 - Employee can view and update their own info
@@ -13,7 +13,7 @@ Full Repository https://github.com/atshisler/batch-source/tree/Alex_Shisler/Alex
 - A manager can login and view the manager home page.
 - A manager can view all employees
 - A manager can view all resolved requests from all employees
-- A  manager is able to approve or deny pending reimbursement requests.
+- A manager is able to approve or deny pending reimbursement requests.
 
 ## **Environments / Technologies**
 Servlets, Java, HTML, CSS, Bootstrap, JavaScript, JDBC, SQL, AJAX, Tomcat, Oracle 11g, STS, SQL Developer
