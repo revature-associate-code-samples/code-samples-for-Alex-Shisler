@@ -9,3 +9,6 @@ Final project continued on with the third iteration of RideForce, this applicati
 - Fixed bug where Navbar did not update to show logged in features after creating an account and logging in.
 - Fixed an issue where after account was created the user would not be redirected to the landing page.
 - Provided next gen images in order to improve efficiency for PWA load times.
+
+# **Technology / Environments**
+Microservices, Angular, HTML/CSS, Bootstrap, Google Maps API, Spring, Java, DevOps, Agile
