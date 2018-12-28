@@ -4,6 +4,7 @@
 https://github.com/atshisler/batch-source/tree/Alex_Shisler/Alex_Shisler_Code/BankingProject  
   
 ## **Roles / Responsibilities**
+- Individual Project
 - Implemented basic account features including withdrawing, depositing money and checking account balance.
 - Employed JDBC to connect to a database and use prepared statements to do transactions with the database.
 - Utilized OracleSQL and Amazon RDS to store the state of user accounts and login info.
