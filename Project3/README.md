@@ -3,6 +3,10 @@ Final project continued on with the third iteration of RideForce, this applicati
 
 Full Repository
 https://github.com/revaturelabs/rideshare-client/tree/develop-Oct18-2018
+Other Repos used in project:
+https://github.com/revaturelabs/rideshare-map-service/tree/dev
+https://github.com/revaturelabs/rideshare-gateway-service/tree/dev
+https://github.com/revaturelabs/rideshare-discovery-service/tree/dev
 
 # **Roles / Responsibilities**
 - Front End PWA Team
