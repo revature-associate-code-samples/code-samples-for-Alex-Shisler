@@ -1,7 +1,7 @@
 ## **Banking Application**
   A console based banking application which allows the client to deposit and withdraw money into an account.  Client can also login with a username and password. Two roles provided both an admin and user role, admins must approve a user before they can transact on their account, admin can freeze and unfreeze a client's access on an account.
-  
-https://github.com/atshisler/batch-source/tree/Alex_Shisler/Alex_Shisler_Code/BankingProject  
+
+Full Repository at: https://github.com/atshisler/Project0
   
 ## **Roles / Responsibilities**
 - Individual Project
