@@ -60,7 +60,10 @@ public class BankImpl implements BankDao {
 				return true;
 			}
 		} catch (SQLException s) {
-			Log.error("Catch block in getCustomer - DAO Implementation - occured");
+
+			Log.error("catch block in inserBankCust - Dao Implementation - occured");
+			s.getMessage();
+			//s.printStackTrace();
 		} finally {
 			;// Log.warn("executed finally block");
 		}
