@@ -10,25 +10,54 @@ public class BankUser {
 	private String firstName;
 	private String lastName;
 	private String password;
+	private String role;
+	private String isAccessible;
 	private double accountBal;
 	
 	public BankUser() {
 		super();
+		cid = -1;
 		// TODO Auto-generated constructor stub
 	}
 
-	public BankUser(int cid, String accountName, String firstName, String lastName, String password,
-			double accountBal) {
+	public BankUser(int cid, String accountName, String password, String firstName, String lastName, String role, String isAccessible) {
 		super();
 		this.cid = cid;
 		this.accountName = accountName;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.password = password;
-		this.accountBal = accountBal;
+		this.role = role;
+		this.isAccessible = isAccessible;
+		accountBal = 0.00;
 	}
 	
-	
+	public BankUser(BankUser user) {
+		this.cid = user.getCid();
+		this.accountName = user.getAccountName();
+		this.firstName = user.getFirstName();
+		this.lastName = user.getLastName();
+		this.password = user.getPassword();
+		this.role = user.getRole();
+		this.isAccessible = user.getIsAccessible();
+		this.accountBal = user.getAccountBal();
+	}
+
+	public String getRole() {
+		return role;
+	}
+
+	public void setRole(String role) {
+		this.role = role;
+	}
+
+	public String getIsAccessible() {
+		return isAccessible;
+	}
+
+	public void setIsAccessible(String isAccessible) {
+		this.isAccessible = isAccessible;
+	}
 
 	public int getCid() {
 		return cid;
@@ -73,16 +102,26 @@ public class BankUser {
 	public double getAccountBal() {
 		return accountBal;
 	}
-
+	
 	public void setAccountBal(double accountBal) {
 		this.accountBal = accountBal;
 	}
 
+	public void deposit(double amount) {
+		accountBal += amount;
+	}
+	
+	public void withdrawal(double amount) {
+		accountBal -= amount;
+	}
+
 	@Override
 	public String toString() {
-		return "\n-------------------------------\n CID = " + cid + "\n Usename = " + accountName + "\n First Name = " + firstName + "\n Last Name = "
-				+ lastName + "\n Password =" + password + "\n Account Balance = $" + accountBal + "\n";
-	}
+		return "User: CID=" + cid + ", Username = " + accountName + ", " + firstName + " "
+				+ lastName + " Role = " + role + ", Account Access =" + isAccessible + "";
+	}//display for admin
+
+	
 	
 	
 	
