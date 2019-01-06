@@ -49,7 +49,7 @@ public class BankImpl implements BankDao{
 			if(ps.executeUpdate() > 0) 
 				return true;
 		} catch (SQLException s) {
-			Log.error("catch block in getCustomer - Dao Implementation - occured");
+			Log.error("catch block in inserBankCust - Dao Implementation - occured");
 			s.getMessage();
 			//s.printStackTrace();
 		} finally {
